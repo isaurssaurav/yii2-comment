@@ -1,0 +1,22 @@
+{
+    "name": "isaurssaurav/yii2-comment",
+    "description": "test",
+    "type": "extension",
+	"keywords": ["yii2-comment", "comment", "advanced-comment"],
+    "license": "MIT",
+	"support": {
+		"issues": "https://github.com/isaurssaurav/yii2-comment/issues?state=open",
+		"source": "https://github.com/isaurssaurav/yii2-comment"
+	},
+    "authors": [
+        {
+            "name": "saurs saurav",
+            "email": "saurssaurav33@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+		"php": ">=5.4.0",
+        "yiisoft/yii2": ">=2.0.10",
+	}
+}
