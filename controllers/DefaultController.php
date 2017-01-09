@@ -1,6 +1,6 @@
 <?php
 
-namespace isaurssaurav\comment\controllers;
+namespace isaurssaurav\yii\comment\controllers;
 
 use yii\web\Controller;
 
