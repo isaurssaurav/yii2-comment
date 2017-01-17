@@ -34,7 +34,7 @@ To access the module, you need to add the following code to your application con
 ```php
 'modules' => [
     'comment' => [
-        'class' => 'isaurssaurav\yii\comments\Module',
+        'class' => 'isaurssaurav\yii\comment\Module',
     ],
 ]
 ```
