@@ -1,6 +1,6 @@
 {
     "name": "isaurssaurav/yii2-comment",
-    "description": "Add Beautiful comment To Your site",
+    "description": "light Yii2-comment widget.For more information visit github",
     "type": "extension",
 	"keywords": ["yii2-comment", "comment", "advanced-comment"],
     "license": "MIT",
