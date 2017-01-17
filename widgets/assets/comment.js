@@ -38,7 +38,7 @@
         });
 
    });
-   $(".sort-comment").on("click",function(){
+   $(document).on("click",".sort-comment",function(){
            $.ajax({
             type:"POST",
             url:$(this).data("url"),
