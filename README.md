@@ -69,5 +69,6 @@ use isaurssaurav\yii\comment\widgets\CommentWidget;
 ]);
 
 ```
+[![demo.png](https://s29.postimg.org/53a9lgpqf/demo.png)](https://postimg.org/image/6v38gd937/)
 
 
