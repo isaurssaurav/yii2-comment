@@ -17,7 +17,7 @@ or add
 ```
 
 to the require section of your composer.json.
-
+Font Awesome is required*
 
 Configuration
 -----------------------
