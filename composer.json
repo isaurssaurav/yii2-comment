@@ -1,6 +1,6 @@
 {
     "name": "isaurssaurav/yii2-comment",
-    "description": "test",
+    "description": "Add Beautiful comment To Your site",
     "type": "extension",
 	"keywords": ["yii2-comment", "comment", "advanced-comment"],
     "license": "MIT",
