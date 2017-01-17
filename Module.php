@@ -1,6 +1,6 @@
 <?php
 
-namespace isaurssaurav\comment;
+namespace isaurssaurav\yii\comment;
 
 /**
  * comment module definition class
@@ -10,7 +10,7 @@ class Module extends \yii\base\Module
     /**
      * @inheritdoc
      */
-    public $controllerNamespace = 'isaurssaurav\comment\controllers';
+    public $controllerNamespace = 'isaurssaurav\yii\comment\controllers';
 
     /**
      * @inheritdoc

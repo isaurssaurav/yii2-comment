@@ -10,8 +10,8 @@ use yii;
 use yii\base\Widget;
 use yii\helpers\Html;
 use yii\helpers\Url;
-use isaurssaurav\comment\models\Comment;
-use isaurssaurav\comment\components\CommentHelper;
+use isaurssaurav\yii\comment\models\Comment;
+use isaurssaurav\yii\comment\components\CommentHelper;
 use yii\widgets\Pjax;
 
 /**

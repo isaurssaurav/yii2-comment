@@ -1,5 +1,5 @@
 <?php
-namespace isaurssaurav\comment\components;
+namespace isaurssaurav\yii\comment\components;
 use yii;
 
 /**
@@ -18,9 +18,9 @@ class CommentHelper {
             $out.= '<li>';
             $childs=$parent->childs;
             if ($childs) {
-                $out.= Yii::$app->view->renderFile('@isaurssaurav/comment/views/default/_list.php',['model' => $parent]) . self::generateComment($childs);
+                $out.= Yii::$app->view->renderFile('@vendor/isaurssaurav/yii2-comment/views/default/_list.php',['model' => $parent]) . self::generateComment($childs);
             } else {
-                $out.= Yii::$app->view->renderFile('@isaurssaurav/comment/views/default/_list.php',['model' => $parent]);
+                $out.= Yii::$app->view->renderFile('@vendor/isaurssaurav/yii2-comment/views/default/_list.php',['model' => $parent]);
             }
             $out.= '</li>';
         }

@@ -4,9 +4,9 @@ namespace isaurssaurav\yii\comment\controllers;
 
 use yii\web\Controller;
 use yii\helpers\Json;
-use isaurssaurav\comment\components\CommentHelper;
-use isaurssaurav\comment\models\Comment;
-use yii;
+use isaurssaurav\yii\comment\components\CommentHelper;
+use isaurssaurav\yii\comment\models\Comment;
+use Yii;
 
 /**
  * Default controller for the `comment` module
@@ -21,6 +21,7 @@ class DefaultController extends Controller
     {
         return $this->render('index');
     }
+
 
      /**
      * Load Remaining Comment

@@ -17,7 +17,7 @@ use yii\widgets\ActiveForm;
     </div>
     <div class="col-md-12 npad comment-footer">
         <ul class="comment-link-container">
-            <li class="comment-link"><a class="comment-reply-btn" data-parent-id="<?= $model->id ?>" style="color: #cc0000;">Reply</a></li>
+            <li class="comment-link"><a href="javascript:void(0)" class="comment-reply-btn" data-parent-id="<?= $model->id ?>" style="color: #cc0000;">Reply</a></li>
             <li class="comment-link"><a>Share</a></li>
             <li class="comment-link-last"><a>Report</a></li>
         </ul>
