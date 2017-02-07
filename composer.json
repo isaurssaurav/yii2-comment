@@ -1,7 +1,7 @@
 {
     "name": "isaurssaurav/yii2-comment",
     "description": "light Yii2-comment widget",
-    "type": "extension",
+    "type": "yii2-extension",
 	"keywords": ["yii2-comment", "comment", "advanced-comment"],
     "license": "MIT",
 	"support": {
